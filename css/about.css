@@ -1,0 +1,23 @@
+.values {
+    padding: 40px;
+    background-color: #ffffff; /* White background for content sections */
+    text-align: center;
+}
+
+.values h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.values li {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+}

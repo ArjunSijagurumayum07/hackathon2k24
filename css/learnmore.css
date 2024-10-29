@@ -1,0 +1,73 @@
+/* Container for the Learn More section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.feature-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.feature-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Headings */
+.feature-card h3 {
+    font-size: 1.2em;
+    color: #2d572c; /* Dark green color */
+    margin-bottom: 10px;
+}
+
+/* Description text */
+.feature-card p {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Learn More button styling */
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Eco-friendly green */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card {
+        width: 80%;
+    }
+}
